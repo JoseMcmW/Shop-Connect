@@ -1,0 +1,61 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.carouselImg {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: 1s;
+}
+
+.loaded {
+  opacity: 1;
+}
+
+.container_buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  bottom: 10px;
+  gap: 50px;
+}
+
+.container_buttons button {
+  all: initial;
+  display: flex;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 30px;
+  outline: none !important;
+  border: 3px solid #CA1111;
+  border-radius: 100%;
+  background-color: #CA1111;
+}
+
+.container_buttons button:hover {
+  display: flex;
+  font-size: 35px;
+  border-radius: 100%;
+}
+
+@media (max-width: 768px) {
+  .container_buttons {
+    bottom: 5px;
+    gap: 30px;
+  }
+
+  .container_buttons button {
+    font-size: 15px;
+    border: 1px solid #CA1111;
+  }
+
+  .container_buttons button:hover {
+    font-size: 18px;
+    border-radius: 100%;
+  }
+}

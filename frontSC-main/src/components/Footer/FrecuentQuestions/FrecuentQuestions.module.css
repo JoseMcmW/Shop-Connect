@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    margin-top: 150px;
+   flex-direction: column;
+   background-color: aliceblue;
+}
+.container h1{
+    color: #ca1111;
+    font-family: 'Russo One', sans-serif;
+}
+
+.container h2{
+    color: black;
+
+}
+.container p{
+    color: rgb(92, 92, 92);
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-inline: 30px;
+}

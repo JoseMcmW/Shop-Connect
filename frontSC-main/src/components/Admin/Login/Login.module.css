@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    width: 400px;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+    padding: 1.25em;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.container label {
+    vertical-align: top;
+    text-align: left;
+    font-size: 13px;
+    padding: 5px;
+    color: #ffffff;
+    font-weight: initial;
+    width: 30%;
+}
+.container p {
+    vertical-align: top;
+    text-align: left;
+    font-size: 13px;
+    padding: 5px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: red;
+}
+.container input {
+    width: 100%;
+    height: 20px;
+}
+.container div {
+    display: flex;
+}
+.container button {
+    margin-top: 15px;
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+}
